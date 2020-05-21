@@ -2,9 +2,9 @@
 
 This is a expense tracker build with React. It uses functional components with hooks and the context API
 
-##Future Goals - 
-[] Add login auth
-[] Have Monthly expense report export option 
+## Future Goals - 
+- [ ] Add login auth
+- [ ] Have Monthly expense report export option 
 
 ## Run Locally
 ```
