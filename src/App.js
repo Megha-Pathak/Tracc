@@ -13,11 +13,15 @@ function App() {
   return (
     <GlobalProvider>
       <Header />
-      <div className="container">
-        <Balance />
-        <IncomeExpenses />
-        <AddTransaction />
-        <TransactionList />
+      <div className = "dashboard-container">
+                  <div className="container">
+                    <Balance />
+                    <IncomeExpenses /> 
+                    <AddTransaction />
+                  </div>
+                  <div className ="history-container">
+                  <TransactionList />
+                  </div>
       </div>
     </GlobalProvider>
   );

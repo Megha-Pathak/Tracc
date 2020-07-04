@@ -23,8 +23,22 @@ body {
 .container {
   margin: 30px auto;
   width: 350px;
+  
+}
+.history-container{
+  margin: 0px 50px;
+  width: 350px;
 }
 
+.dashboard-container{
+  display: flex;
+}
+
+h2 {
+  letter-spacing: 1px;
+  margin: 0;
+  text-align: center;
+}
 h1 {
   letter-spacing: 1px;
   margin: 0;
